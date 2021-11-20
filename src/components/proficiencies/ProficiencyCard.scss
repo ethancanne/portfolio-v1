@@ -1,0 +1,58 @@
+.proficiency-card{
+    background-color: white;
+    background-image: linear-gradient(90deg,  rgba(255, 255, 255, 0.899),rgb(250, 250, 250),),
+    url("../../../public/assets/code.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    box-shadow: 10px 5px 20px 1px rgba(0, 0, 0, 0.098);
+    width: 700px;
+    height: 350px;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+
+    // display: flex;/
+    // align-items: center;
+    // justify-content: center;
+                
+
+    
+    .proficiency-top{
+        padding: 10px;
+        h1{
+            font-size: 30px;
+            font-weight: 800;
+        }
+
+    }
+    .proficiency-details{
+        p{
+            font-size: 30px;
+        }
+
+    }
+    .proficiency-technologies{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        box-shadow: inset 0px 5px 20px 1px rgba(0, 0, 0, 0.194);
+
+
+
+        h3{
+            font-size: 20px;
+            padding: 30px;
+        }
+        .technology-img{
+            width: 30px;
+        }
+    }
+    
+
+}

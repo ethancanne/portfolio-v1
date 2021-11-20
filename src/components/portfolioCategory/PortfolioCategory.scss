@@ -1,0 +1,17 @@
+.category{
+    font-size: 14px;
+    background-color: white;
+    box-shadow: 0px 5px 10px 0 rgba(77, 77, 77, 0.132);
+
+    margin-right: 30px;
+    padding: 10px 30px 10px 30px;
+    height: 20px;
+    cursor: pointer;
+
+    &.active{
+      background-color: #A5C2E3;
+      border: solid white 1px;
+      color: white;
+      font-weight: 700;
+    }
+}
