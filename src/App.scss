@@ -1,13 +1,14 @@
 .App {
   // background-color: #f9fcfe;
     background-image: linear-gradient(0deg, rgba(230, 232, 245, 0.947), rgba(255, 255, 255, 0.927)),
-    url("https://idsb.tmgrup.com.tr/ly/uploads/images/2020/11/25/thumbs/800x531/74707.jpg");
+    url("../public/assets/intro-mountain.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-attachment: fixed;
     height: 100vh;
     width: 100vw;
+
 
   .sections {
     width: 100%;

@@ -10,9 +10,14 @@ const Footer = () => {
             </h1>
             <hr />
             <div className="connects">
-                <LinkedIn/>
-                <GitHub/>
+                <a href="https://www.github.com/ethancanne/">
+                    <GitHub/>
+                </a>
+                <a href="https://www.linkedin.com/in/ethan-cannelongo/">
+                    <LinkedIn/>
+                </a>
             </div>
+            <a href="">Privacy Policy</a>
         </div>
     )
 }

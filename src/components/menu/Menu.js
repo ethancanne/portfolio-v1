@@ -22,7 +22,7 @@ const Menu = ({menuOpen, setMenuOpen}) => {
         </li>
         <li>
           <a href='#testamonials' onClick={() => setMenuOpen(false)}>
-            Testamonials
+            Proficencies
           </a>
         </li>
         <li>

@@ -1,6 +1,6 @@
 @import '../../globals.scss';
 .footer{
-    height: 40vh;
+    height: 45vh;
     border-top: $secondaryColor 3px solid;
     background-color: rgba(21, 21, 21, 0.954);
     color: white;
@@ -8,6 +8,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    a, a:hover, a:focus, a:active {
+        text-decoration: none;
+        color: inherit;
+    }
 
     h1{
         padding-bottom: 20px;
@@ -18,12 +23,14 @@
     }
     .connects{
         >*{
-            background-color: rgb(77, 77, 77);
-            margin: 20px;
-            padding: 2px;
-            border-radius: 25px;
-            height: 50px;
-            width: 50px;
+            >*{
+                background-color: rgb(77, 77, 77);
+                margin: 20px;
+                padding: 2px;
+                border-radius: 25px;
+                height: 50px;
+                width: 50px;
+            }
         }
     }
 }
