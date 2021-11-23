@@ -2,13 +2,13 @@ const HTMLWebpackPlugin = require('html-webpack-plugin')
 const webpack = require('webpack');
 const Dotenv = require('dotenv-webpack');
 
-
 const Path = require('path')
 
 // const Configuration = require('./Configuration.js')
 
 module.exports = env=>{
   return {
+    mode: env ? 'production' : 'development',
     entry: './src/index.js',
     module: {
       rules: [
@@ -43,7 +43,6 @@ module.exports = env=>{
     },
     plugins: [
       new HTMLWebpackPlugin({
-        // template: Path.join(__dirname, 'public', 'index.html'),
         template: './public/index.html',
         filename: './index.html',
       }),
@@ -55,10 +54,7 @@ module.exports = env=>{
       static: {
         directory: Path.join(__dirname, 'public'),
       },
-      port: process.env.PORT || 3000,
-      // proxy: {
-      //   '/api': `http://localhost:${Configuration.getServerPort()}`,
-      // },
+      port: 3000
     },
   }
 }

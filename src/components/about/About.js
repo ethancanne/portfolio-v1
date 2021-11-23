@@ -2,7 +2,6 @@ import './about.scss';
 import React, {useState, useEffect} from 'react';
 import '../../core/core.scss';
 
-
 const About = () => {
   return (
     <div className='about' id="about">
@@ -20,7 +19,7 @@ const About = () => {
         
           <div className="right">
             <div className="image-container">
-              <img src="./assets/headshot.png" alt="" />
+              <img src='./assets/headshot.png' alt="" />
             </div>
           </div>
         
