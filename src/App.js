@@ -10,6 +10,7 @@ import Menu from './components/menu/Menu';
 import 'regenerator-runtime/runtime.js';
 import PortfoiloPopup from './components/popups/PortfoiloPopup';
 import Proficiencies from './components/proficiencies/Proficiencies'
+import Footer from './components/footer/Footer'
 
 const App = props => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -47,8 +48,9 @@ const App = props => {
         <About />
         <Portfolio setActivePortfolioItem={setActivePortfolioItem}/>
         <Proficiencies/>
-        <Testamonials />
+        {/* <Testamonials /> */}
         <Contact />
+        <Footer/>
       </div>
     </div>
   );

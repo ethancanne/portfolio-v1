@@ -1,0 +1,29 @@
+@import '../../globals.scss';
+.footer{
+    height: 40vh;
+    border-top: $secondaryColor 3px solid;
+    background-color: rgba(21, 21, 21, 0.954);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    hr{
+        width: 300px;
+    }
+    .connects{
+        >*{
+            background-color: rgb(77, 77, 77);
+            margin: 20px;
+            padding: 2px;
+            border-radius: 25px;
+            height: 50px;
+            width: 50px;
+        }
+    }
+}

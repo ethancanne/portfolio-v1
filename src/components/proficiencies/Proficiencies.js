@@ -32,8 +32,8 @@ const Proficiencies = () => {
     }
     return (
         <div className="proficiences">
-            <div className="section-wrapper">
-                <h1 className="title center">Proficiencies</h1>
+            {/* <div className="section-wrapper"> */}
+                {/* <h1 className="title center">Proficiencies</h1> */}
                 <div className="slider" style={{transform: `translateX(-${currentSlide * 100}vw)`}}>
                     {proficiences.map(p=>(
                         <div className="container">
@@ -41,7 +41,7 @@ const Proficiencies = () => {
                         </div>
                     ))}
                     </div>
-            </div>
+            {/* </div> */}
             <button className="arrow-right arrow" onClick={()=>handleClick("right")}> {"<"}</button>
             <button className="arrow-left arrow" onClick={()=>handleClick("left")}> {"<"}</button>
         </div>

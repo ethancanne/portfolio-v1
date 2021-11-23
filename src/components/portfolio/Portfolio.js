@@ -19,10 +19,6 @@ const Portfolio = (props) => {
       title: "Back-end"
     },
     {
-      id: "wordpress",
-      title: "Wordpress"
-    },
-    {
       id: "mobile",
       title: "Mobile"
     },
