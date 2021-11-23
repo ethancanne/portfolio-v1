@@ -18,6 +18,7 @@
     "babel-loader": "^8.2.2",
     "concurrently": "^6.3.0",
     "css-loader": "^6.4.0",
+    "dotenv-webpack": "^7.0.3",
     "html-webpack-plugin": "^5.4.0",
     "jsdoc": "^3.6.7",
     "node-sass": "^6.0.1",
@@ -31,6 +32,7 @@
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
+    "emailjs-com": "^3.2.0",
     "ityped": "^1.0.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"

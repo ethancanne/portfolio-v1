@@ -22,7 +22,6 @@ const App = props => {
     const position = sections.scrollTop;
     if (position > 1) {
       setTopBarOpaque(true);
-      console.log(position)
     } else {
       setTopBarOpaque(false);
     }
