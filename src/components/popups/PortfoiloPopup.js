@@ -1,5 +1,5 @@
 import React from 'react'
-import Popup from './popup'
+import Popup from './Popup'
 import './PortfolioPopup.scss'
 
 const PortfoiloItem = ({item, setActiveItem}) => {
