@@ -15,7 +15,7 @@ import Footer from './components/footer/Footer'
 const App = props => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [topBarOpaque, setTopBarOpaque] = useState(false);
-  const [activePortfolioItem, setActivePortfolioItem] = useState("")
+  const [activePortfolioItem, setActivePortfolioItem] = useState({})
 
   const handleScroll = () => {
     const sections = document.querySelector('.sections');
@@ -35,9 +35,9 @@ const App = props => {
         topBarOpaque={topBarOpaque}
       />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      {(activePortfolioItem !== "") && (
-        <PortfoiloPopup item={activePortfolioItem} setActiveItem={setActivePortfolioItem}/>
-      )}
+      {/* {(activePortfolioItem !== "") && ( */}
+        <PortfoiloPopup item={activePortfolioItem} setActiveItem={setActivePortfolioItem} isShowing={(Object.keys(activePortfolioItem).length !== 0)}/>
+      {/* )} */}
       <div
         className='sections'
         onScroll={() => {

@@ -2,8 +2,7 @@ import './portfolio.scss'
 import '../../core/core.scss';
 import React, {useState, useEffect} from 'react'
 import PortfolioCategory from '../portfolioCategory/PortfolioCategory';
-import {frontend} from '../../portfolioData'
-import PortfoiloPopup from '../popups/PortfoiloPopup';
+import {frontend, backend, fullstack, mobile, design} from '../../portfolioData'
 
 const Portfolio = (props) => {
   const [activeCategory, setActiveCategory] = useState("frontend")
@@ -19,12 +18,16 @@ const Portfolio = (props) => {
       title: "Back-end"
     },
     {
+      id: "fullstack",
+      title: "Full-stack"
+    },
+    {
       id: "mobile",
       title: "Mobile"
     },
     {
-      id: "uidesigns",
-      title: "UI-Designs"
+      id: "design",
+      title: "Design"
     },
   ]
 
@@ -35,15 +38,19 @@ const Portfolio = (props) => {
         break;
 
       case "backend" :
-        setPortfolioData(frontend)
+        setPortfolioData(backend)
+        break;
+      
+      case "fullstack" :
+        setPortfolioData(fullstack)
         break;
 
-      case "wordpress" :
-        setPortfolioData(frontend)
+      case "mobile" :
+        setPortfolioData(mobile)
         break;
         
-      case "uidesigns" :
-        setPortfolioData(frontend)
+      case "design" :
+        setPortfolioData(design)
         break;
     }
   }, [activeCategory]) //<- whenever activeCategory is changed

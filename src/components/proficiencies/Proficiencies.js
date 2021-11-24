@@ -7,20 +7,26 @@ const Proficiencies = () => {
     const proficiences = [
         {
             title: "Front-end development",
-            description: "lorem",
-            technologies: ["hehher", "hhre"],
-            backgroundImg: "background"
+            description: "Coming Soon",
+            technologies: ["React", "html", "sass", "next.js"],
+            backgroundImg: "./assets/code.png"
         },
         {
             title: "Back-end development",
-            description: "lorem",
-            technologies: ["hehher", "hhre"],
+            description: "Coming Soon",
+            technologies: ["Node.js", "Express.js", "MongoDB", ],
             backgroundImg: "background"
         },
         {
-            title: "Othe-end development",
-            description: "lorem",
-            technologies: ["hehher", "hhre"],
+            title: "Software development",
+            description: "Coming Soon",
+            technologies: ["Swift", "C++", "C#"],
+            backgroundImg: "background"
+        },
+        {
+            title: "UI/UX Design",
+            description: "Coming Soon",
+            technologies: ["PowerPoint", "Material UI", ""],
             backgroundImg: "background"
         }
     ]

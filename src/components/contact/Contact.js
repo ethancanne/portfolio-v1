@@ -34,7 +34,7 @@ const Contact = () => {
     <div className='contact' id='contact'>
         <div className="title-contact-container">
               <h2>Let's talk.</h2>
-              <p>Email is the quickest way to get in touch with me. I typically respond within 24 hours. Get in touch via the form below, or by emailing ethancannelongo@gmail.com.</p>
+              <p>Email is the quickest way to get in touch with me. I typically respond within 24 hours. Get in touch via the form, or by emailing ethancannelongo@gmail.com.</p>
         </div>
 
           <div className="form-contact-container">

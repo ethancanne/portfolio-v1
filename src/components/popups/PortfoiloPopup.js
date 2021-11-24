@@ -2,9 +2,9 @@ import React from 'react'
 import Popup from './Popup'
 import './PortfolioPopup.scss'
 
-const PortfoiloItem = ({item, setActiveItem}) => {
+const PortfoiloItem = ({item, setActiveItem, isShowing}) => {
     return (
-        <Popup>
+        <Popup isShowing={isShowing}>
             <div className="bar">
                 <h1>{item.title}</h1>
                 <div className="close-button" onClick={()=>setActiveItem("")}>X</div>
@@ -20,6 +20,7 @@ const PortfoiloItem = ({item, setActiveItem}) => {
                 </div>
                 <div className="bottom-portfolio-wrapper">
                     <a href={item.link}>Check it out</a>
+                    <h3>{item.dateCreated}</h3>
                 </div>
             </div>
         </Popup>
