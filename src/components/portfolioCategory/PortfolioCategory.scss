@@ -9,6 +9,9 @@
     text-align: center;
     height: 20px;
     cursor: pointer;
+    @include mobile {
+      margin: 10px;
+    }
 
     &.active{
       background-color: #A5C2E3;

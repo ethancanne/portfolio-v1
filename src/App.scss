@@ -1,6 +1,7 @@
 @import './globals.scss';
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .App {
-  // background-color: #f9fcfe;
+    font-family: 'Outfit', sans-serif;
     background-image: linear-gradient(0deg, rgba(230, 232, 245, 0.947), rgba(255, 255, 255, 0.927)),
     url("../build/assets/intro-mountain.jpeg");
     background-size: cover;
