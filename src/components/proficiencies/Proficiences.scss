@@ -1,3 +1,4 @@
+@import '../../globals.scss';
 .proficiences{
     height: 60vh;
 
@@ -5,6 +6,9 @@
     position: relative;
     box-shadow: inset 0px 7px 4px 2px rgba(77, 77, 77, 0.043);
     overflow: hidden;
+    @include mobile {
+        height: 80vh;
+    }
 
     .arrow{
         width: 80px;
@@ -27,6 +31,15 @@
         &.arrow-right{
             right: 30px;
             transform: rotateY(180deg);
+        }
+
+        @include mobile {
+            &.arrow-left{
+                top: 500px;
+            }
+            &.arrow-right{
+                top: 500px;
+            }
         }
     }
     // display: flex;

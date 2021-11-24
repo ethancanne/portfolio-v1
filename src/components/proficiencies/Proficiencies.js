@@ -31,7 +31,7 @@ const Proficiencies = () => {
 
     }
     return (
-        <div className="proficiences">
+        <div className="proficiences" id="skills">
             {/* <div className="section-wrapper"> */}
                 {/* <h1 className="title center">Proficiencies</h1> */}
                 <div className="slider" style={{transform: `translateX(-${currentSlide * 100}vw)`}}>

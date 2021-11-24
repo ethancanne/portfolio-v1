@@ -3,6 +3,9 @@
     position: relative;
     z-index: 2;
     overflow: hidden;
+    @include mobile {
+        width: 100vw;
+    }
 }
 
 .highlight::after{
@@ -14,4 +17,6 @@
     bottom: -10px;
     left: 0;
     z-index: -1;
+
+    
 }

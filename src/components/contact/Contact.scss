@@ -1,3 +1,4 @@
+@import '../../globals.scss';
 .contact {
   height: 70vh;
   background-image: linear-gradient(0deg, rgba(230, 232, 245, 0.413), rgba(255, 255, 255, 0.927)),
@@ -14,11 +15,18 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
+  @include mobile {
+    flex-direction: column;
+  }
+  @include mobile {
+    padding: 0;
+  }
 
   .title-contact-container{
     
     flex: 1;
     padding: 90px;
+    
 
     h2{
       font-size: 60px;
@@ -26,6 +34,13 @@
     }
     p{
       font-size: 20px;
+    }
+
+    @include mobile {
+      padding: 30px;
+      h2{
+        font-size: 50px;
+      }
     }
   }
 
@@ -49,21 +64,16 @@
     
       input{
         border: none;
-        width: 300px;
-        height: 30px;
         font-size: 14px;
       }
 
       textarea{
         border: none;
-        width: 300px;
-        height: 200px;
         font-size: 14px;
       }
 
       button{
-        width: 320px;
-        height: 50px;
+
         background-color: rgb(255, 255, 255);
 
         border: none;
@@ -78,6 +88,21 @@
       span{ //Message
         color: darkgreen;
       }
+    }
+    @include mobile {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      form{
+        min-height: 200px;
+        >*{
+          margin: 2px;
+        }
+        button{
+          min-height: 40px;
+        }
+      }
+      
     }
 
   }

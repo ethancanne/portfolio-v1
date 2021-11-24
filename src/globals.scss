@@ -4,3 +4,11 @@ $secondaryColor: #e2f0d9;
 $topBarColor: #1f4e79;
 $lightColor: #BFD5E7;
 
+
+$width: 1100px;
+
+@mixin mobile {
+    @media(max-width:#{$width}){
+        @content
+    }
+}

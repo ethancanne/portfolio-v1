@@ -3,10 +3,6 @@ import {Mail, Phone, LinkedIn} from '@material-ui/icons';
 import './topbar.scss';
 
 const Topbar = ({menuOpen, setMenuOpen, topBarOpaque}) => {
-  // const [didScroll] = useState(yOffset !== 0) ? true : false;
-
-  // //Change topbar color when scolled
-  // const yOffset = window.pageYOffset || document.documentElement.scrollTop;
 
   return (
     <>

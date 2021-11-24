@@ -9,9 +9,26 @@
 
     .about-wrapper{
         padding: 60px 90px 10px 90px;
-        
+
+        // .dropdown{
+        //     background-color: rgba(237, 237, 237, 0.612);
+        //     margin-top: 30px;
+        //     margin-bottom: 30px;
+        //     padding: 20px 20px 20px 20px;
+        //     height: 40px;
+        //     overflow: hidden;
+        //     transition: all 1s;
+
+        //     &.active{
+        //         height: auto;
+        //     }
+        // }
+
         .top-wrapper{
             display: flex;
+            @include mobile {
+                flex-direction: column;
+            }
 
             .left{
                 overflow: hidden;
@@ -40,6 +57,11 @@
                     height: 300px;
                     border-radius: 50%;
                     box-shadow: 0px 2px 4px 2px rgba(77, 77, 77, 0.091);
+                    @include mobile {
+                        width: 200px;
+                        height: 200px;
+                        margin: 20px;
+                    }
                 }
                 
             }
