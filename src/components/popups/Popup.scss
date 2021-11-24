@@ -1,3 +1,4 @@
+@import '../../globals.scss';
 .popup-background{
     width: 100vw;
     height: 100vh;
@@ -33,6 +34,11 @@
     height: auto;
     background-color: white;
     animation: fadeZoomIn 0.3s ease-in-out forwards;
+
+    @include mobile{
+        width: 100vw;
+        height: 100vh;
+    }
 }
 @keyframes fadeZoomIn {
     100%{

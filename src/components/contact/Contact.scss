@@ -10,6 +10,7 @@
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
+  overflow: hidden;
 
   padding: 90px 0 0 90px;
   display: flex;
@@ -23,7 +24,7 @@
   }
 
   .title-contact-container{
-    
+    overflow: hidden;
     flex: 1;
     padding: 90px;
     
@@ -45,6 +46,7 @@
   }
 
   .form-contact-container{
+    overflow: hidden;
     flex: 1;
     form{
       width: 70%;
@@ -82,11 +84,13 @@
         text-align: center;
       
         cursor: pointer;
+        overflow: hidden;
       }
 
 
       span{ //Message
         color: darkgreen;
+        overflow: hidden;
       }
     }
     @include mobile {

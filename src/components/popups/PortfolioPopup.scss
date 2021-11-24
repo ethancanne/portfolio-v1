@@ -1,3 +1,4 @@
+@import '../../globals.scss';
 .bar{
     height: 4em;
     // width:60vw;
@@ -7,18 +8,22 @@
     padding: 19px 19px 0 19px;
     box-shadow: 0px 1px 10px 00px rgba(0, 0, 0, 0.249);
 
+  
     h1{
         font-size: 30px;
         flex: 95%;
     }
     .close-button{
-        flex: 5%;
+        // flex: 1;
         text-align: right;
         width: 20px;
         font-size: 30px;
         cursor: pointer;
         font-weight: 700;
         color: rgba(136, 8, 8, 0.673);
+        @include mobile {
+        
+        }
     }
 }
 .portfolio-popup-wrapper{
@@ -27,6 +32,10 @@
         margin-bottom: 10px;
         display: flex;
         flex-direction: row;
+        @include mobile{
+            flex-direction: column;
+            overflow-y: scroll;
+        }
         .left{
             flex: 60%;
             img{

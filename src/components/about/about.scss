@@ -9,6 +9,9 @@
 
     .about-wrapper{
         padding: 60px 90px 10px 90px;
+        @include mobile{
+            padding: 20px;
+        }
 
         // .dropdown{
         //     background-color: rgba(237, 237, 237, 0.612);
@@ -60,7 +63,7 @@
                     @include mobile {
                         width: 200px;
                         height: 200px;
-                        margin: 20px;
+                        margin: 20px 0px 20px -10px;
                     }
                 }
                 

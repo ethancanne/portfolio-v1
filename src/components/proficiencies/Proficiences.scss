@@ -9,6 +9,7 @@
     @include mobile {
         height: 80vh;
     }
+    z-index: 99;
 
     .arrow{
         width: 80px;
@@ -16,6 +17,7 @@
         border-radius: 40px;
         background-color: rgb(242, 242, 242);
         color: rgba(0, 0, 0, 0.521);
+        z-index: 99;
 
         position: absolute;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
