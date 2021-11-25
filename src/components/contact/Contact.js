@@ -1,6 +1,7 @@
 import './Contact.scss';
 import React, {useState, useEffect} from 'react';
 import emailjs from 'emailjs-com'
+// const Config = require("../../../Configuration.js");
 
 const Contact = () => {
   const [successMsg, setSuccessMsg] = useState(false)

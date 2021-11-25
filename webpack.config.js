@@ -1,10 +1,7 @@
 const HTMLWebpackPlugin = require('html-webpack-plugin')
 const webpack = require('webpack');
-const Dotenv = require('dotenv-webpack');
-
+const Dotenv = require('dotenv-webpack')
 const Path = require('path')
-
-// const Configuration = require('./Configuration.js')
 
 module.exports = env=>{
   return {
