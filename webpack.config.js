@@ -47,7 +47,8 @@ module.exports = env=>{
         filename: './index.html',
       }),
       new Dotenv({
-        path: `./.env`
+        path: `./.env.${env}`,
+        systemVars: true
       }),
       ],
     devServer: {

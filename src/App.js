@@ -12,6 +12,7 @@ import PortfoiloPopup from './components/popups/PortfoiloPopup';
 import Proficiencies from './components/proficiencies/Proficiencies'
 import Footer from './components/footer/Footer'
 
+
 const App = props => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [topBarOpaque, setTopBarOpaque] = useState(false);
