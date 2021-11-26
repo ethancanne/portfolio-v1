@@ -23,7 +23,7 @@ const Intro = () => {
       <div className="intro-wrapper">
         <h2>Hi there, I'm</h2>
         <h1 className='highlight'>Ethan Cannelongo</h1>
-        <h3>Proficient in <span ref={textRef}></span></h3>
+        <h3>Skilled in <span ref={textRef}></span></h3>
         <a href="#about"><KeyboardArrowDown className="icon"/></a>
       </div>
     </div>
