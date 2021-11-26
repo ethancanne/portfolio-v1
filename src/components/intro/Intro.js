@@ -19,12 +19,6 @@ const Intro = () => {
 
   return (
     <div className='intro' id='intro'>
-      {/* <div className="left">
-        <div className="imgContainer">
-          <img src="./assets/Ethan.png" alt="" />
-        </div>
-      </div> */}
-      {/* <div className="right"> */}
       <div className="overlay"></div>
       <div className="intro-wrapper">
         <h2>Hi there, I'm</h2>
@@ -32,7 +26,6 @@ const Intro = () => {
         <h3>Proficient in <span ref={textRef}></span></h3>
         <a href="#about"><KeyboardArrowDown className="icon"/></a>
       </div>
-      {/* </div> */}
     </div>
   );
 };

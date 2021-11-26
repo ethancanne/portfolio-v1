@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "15.1.0",
+    "npm": "7.0.8"
+  },
   "scripts": {
-    "build": "webpack --mode production",
-    "node": "node server.js",
+    "heroku-postbuild": "webpack --config webpack.prod.js",
     "start": "node server.js",
-    "dev": "npm rebuild node-sass && webpack server --mode development",
-    "dev2": "webpack --mode development && node server.js"
+    "dev": "npm rebuild node-sass && webpack server --mode development"
   },
   "keywords": [],
   "author": "",

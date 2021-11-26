@@ -21,9 +21,9 @@ const Contact = () => {
       from_email: email
     };
 
-    emailjs.init(process.env.EMAIL_USER_ID)
+    emailjs.init(EMAIL_USER_ID)
     try{
-      const response = emailjs.send(process.env.EMAIL_SERVICE_ID, process.env.EMAIL_TEMPLATE_ID, templateParams)
+      const response = emailjs.send(EMAIL_SERVICE_ID, EMAIL_TEMPLATE_ID, templateParams)
       setSuccessMsg(true)
     }catch (error){
       console.log('FAILED...', error);

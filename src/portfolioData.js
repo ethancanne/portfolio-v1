@@ -50,7 +50,7 @@ export const frontend = [
     {
         id: 6,
         title: "GitHub User Finder Website",
-        description: "This website was developed as a personal project using React.js as the front-end framework and bootstrap for the styling.  It utilizes the GitHub and Context API, to retrieve and stroe data to allow for the searching of users on GitHub.",
+        description: "This website was developed as a personal project using React.js as the front-end framework and bootstrap for the styling.  It utilizes the GitHub and Context APIs, to retrieve and store data and allow for the searching of users on GitHub.",
         dateCreated: "Dec 23, 2020",
         link: "https://github.com/ethancanne/github-finder",
         img:"./assets/portfolio/GitHubUserFinderWebsite.png"
@@ -98,21 +98,37 @@ export const fullstack = [
 export const mobile = [
     {
         id: 1,
-        title: "Coming soon",
-        description: "",
-        dateCreated: "",
-        link: "",
-        img:""
+        title: "Prevymis Quest iPad OS App",
+        description: "I had the oppurtunity to work with a client to develop, deliver and distribute a complete iPad OS application. This application is similar to an escape room game, which was built for the purpose of training employees in a Pharmasutical company.  The design had been provided and I was tasked to take this idea and make it into a reality using Xcode and Swift.",
+        dateCreated: "Oct 10, 2019",
+        link: "https://appadvice.com/game/app/prevymis-quest/1473006753",
+        img:"./assets/portfolio/PrevymisQuest.jpeg"
+    },
+    {
+        id: 2,
+        title: "Positage Social Media Application",
+        description: "This application was developed as a personal project, which taught me the essential skills of iOS app development and design.  It was built using Xcode and Swift, using Firebase and Firestore for authentication and data storage.",
+        dateCreated: "June 25, 2020",
+        link: "https://github.com/ethancanne/Positage",
+        img:"./assets/portfolio/PositageApp.png"
     },
 ]
 
 export const design = [
     {
         id: 1,
-        title: "Coming soon",
-        description: "",
-        dateCreated: "",
-        link: "",
-        img:""
+        title: "Study Spaces Web App Design",
+        description: "This design was created for a web-application that is currently being developed in my capstone course.  I am currently a part of a team that will take this mockup and covert it into an actual design using Sass for the Study Spaces web-application.  I utilized the powerful design capabilities of PowerPoint to develop these mockup images.",
+        dateCreated: "Oct 15, 2021",
+        link: "https://drive.google.com/file/d/19VRFuV8CjMV2ZKxeTueYbw5UiesAqnVD/view?usp=sharing",
+        img:"./assets/portfolio/StudySpacesUI.png"
+    },
+    {
+        id: 2,
+        title: "Student Information System Design",
+        description: "I created this design as a graded submission for a Software Development class.  It encompasses the UI Design of a student information system.  I utilized the powerful design capabilities of PowerPoint to develop these mockup images. ",
+        dateCreated: "April 2, 2021",
+        link: "https://drive.google.com/file/d/15pxKETXxZZqGtObxfptvrCpKkTSnobBQ/view?usp=sharing",
+        img:"./assets/portfolio/SISUI.png"
     },
 ]
