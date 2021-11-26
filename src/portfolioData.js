@@ -18,7 +18,7 @@ export const frontend = [
     {
         id: 2,
         title: "Museum Website",
-        description: "This website was developed and submitted as a graded assigment for a Web Architecture and Development class.  It showcases my capability with applying animation within CSS and design modern, interactive interfaces.",
+        description: "This website was developed and submitted as a graded assigment for a Web Architecture and Development class.  It showcases my capability with applying animation within CSS and designing modern, interactive interfaces.",
         dateCreated: "Oct 30, 2020",
         link: "http://ethancannelongo.great-site.net/museum-website/",
         img:"./assets/portfolio/MuseumWebsite.png"

@@ -17,7 +17,7 @@ const Footer = () => {
                     <LinkedIn/>
                 </a>
             </div>
-            <a href="">Privacy Policy</a>
+            <p>Created by Ethan Cannelongo</p>
         </div>
     )
 }

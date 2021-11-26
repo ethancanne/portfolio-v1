@@ -1,22 +1,16 @@
+@import '../../globals.scss';
 .proficiency-card{
-    background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     box-shadow: 10px 5px 20px 1px rgba(0, 0, 0, 0.098);
-    width: 800px;
+    width: 70vw;
     height: 330px;
-    // border-radius: 20px;
     overflow: hidden;
     padding: 20px;
+    margin: 30px;
     position: relative;
 
-    // display: flex;/
-    // align-items: center;
-    // justify-content: center;
-                
-
-    
     .proficiency-top{
         padding: 10px;
         h1{
@@ -27,7 +21,8 @@
     }
     .proficiency-details{
         p{
-            font-size: 30px;
+            font-size: #{"min(3.4vw, 25px)"};
+            padding: 10px;
         }
 
     }
@@ -35,7 +30,7 @@
         position: absolute;
         left: 0;
         bottom: 0;
-        height: 100px;
+        height: 60px;
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -46,11 +41,29 @@
 
         h3{
             font-size: 20px;
-            padding: 30px;
+            padding: 16px 10px 0 30px;
         }
-        .technology-img{
-            width: 30px;
+        .technology{
+            margin-top: 20px;
+            text-align: left;
+            padding-right: 20px;
         }
+
+
+        @include mobile {
+            h3{
+                font-size: 15px;
+                padding-top: 20px;
+            }
+            p{
+                font-size: 15px;
+            }
+            .technology{
+                margin-top: 20px;
+            }
+        }
+    
+    
     }
     
 

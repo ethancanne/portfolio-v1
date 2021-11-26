@@ -13,6 +13,7 @@
         font-size: 30px;
         flex: 95%;
     }
+    
     .close-button{
         // flex: 1;
         text-align: right;
@@ -22,16 +23,25 @@
         font-weight: 700;
         color: rgba(136, 8, 8, 0.673);
     }
+    @include mobile{
+        h1{
+            font-size: 20px;
+        }
+        .close-button{
+            font-size: 20px;
+        }
+        height: 2.5em;
+    }
 }
 .portfolio-popup-wrapper{
     padding: 20px;
+    overflow-y: scroll;
     .portfolio-info-wrapper{
         margin-bottom: 10px;
         display: flex;
         flex-direction: row;
         @include mobile{
             flex-direction: column;
-            overflow-y: scroll;
         }
         .left{
             flex: 50%;
@@ -46,7 +56,6 @@
         .right{
             flex: 50%;
             padding: 20px;
-
             p{
                 font-size: 20px;
             }
