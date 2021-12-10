@@ -112,6 +112,15 @@ export const mobile = [
         link: "https://github.com/ethancanne/Positage",
         img:"./assets/portfolio/PositageApp.png"
     },
+    {
+        id: 3,
+        title: "FocalPoint Cross-Platform Application",
+        description: "FocalPoint is a cross-platform application built using the React Native framework.  It features a modern design and functionality that helps people focus and keep track of important tasks throughout their day.",
+        dateCreated: "Dec 10, 2021",
+        link: "https://github.com/ethancanne/FocalPoint",
+        img:"./assets/portfolio/FocalPointApp.png"
+    },
+
 ]
 
 export const design = [
