@@ -19,7 +19,7 @@ const Topbar = ({menuOpen, setMenuOpen, topBarOpaque}) => {
               <a href='#intro' className='name'>
                 Ethan Cannelongo<br/>
               </a>
-              <p>Web Developer</p>
+              <p>Web and Mobile Developer</p>
             </div>
             <div className='itemContainer'>
               <Mail className='icon' />
