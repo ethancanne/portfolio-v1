@@ -5,10 +5,11 @@ export const frontend = [
     description:
       "This website was voluntarily developed and deployed using React and Next.JS for a non-profit organization called GIA'S Hope.  The website features an intuitive and responsive user interface developed using the Sass design language, which is plesant and easy to use.  It incorporates advanced features including many fluid animations and effects.",
     link: "https://www.giashope.org",
+    dateCreated: "Dec 28, 2021",
     img: "./assets/portfolio/giashope.png",
   },
   {
-    id: 1,
+    id: 2,
     title: "Library Website",
     description:
       "This website was developed and submitted as a graded assigment for a Web Architecture and Development class.  It showcases multiple aspects of my design capabilites with CSS and front-end architecture.",
@@ -17,7 +18,7 @@ export const frontend = [
     img: "./assets/portfolio/LibraryWebsite.png",
   },
   {
-    id: 1,
+    id: 3,
     title: "Computer Retail Website",
     description:
       "This website was developed and submitted as a graded assigment for a Web Architecture and Development class.  It showcases my design skills along with my ability with using JQuery to apply functionality to the website, such as an interactive cart, popups, along with many smooth animations therein.",
@@ -26,7 +27,7 @@ export const frontend = [
     img: "./assets/portfolio/ComputerRetailWebsite.png",
   },
   {
-    id: 2,
+    id: 4,
     title: "Museum Website",
     description:
       "This website was developed and submitted as a graded assigment for a Web Architecture and Development class.  It showcases my capability with applying animation within CSS and designing modern, interactive interfaces.",
@@ -35,7 +36,7 @@ export const frontend = [
     img: "./assets/portfolio/MuseumWebsite.png",
   },
   {
-    id: 3,
+    id: 5,
     title: "Hotel Website",
     description:
       "This is a static website, which was developed and submitted as a graded assigment for a Web Architecture and Development class.  The design for this website was given in class as an image. This website showcases my capability with taking an image mockup and applying the design into an actual style for a website using CSS.",
@@ -44,7 +45,7 @@ export const frontend = [
     img: "./assets/portfolio/HotelWebsite.png",
   },
   {
-    id: 4,
+    id: 6,
     title: "Coffee Website",
     description:
       "This website was developed and submitted as a graded assigment for a Web Architecture and Development class.  It showcases multiple aspects of my design capabilites with CSS and front-end architecture.",
@@ -53,7 +54,7 @@ export const frontend = [
     img: "./assets/portfolio/CoffeeWebsite.png",
   },
   {
-    id: 5,
+    id: 7,
     title: "Wildflower Hope",
     description:
       "This blog was voluntarily developed using Wordpress for a non-profit organization.  It features a custom, modern design; email marketing integration; and many other features that showcase my ability with front-end architecture as well as utilizing a CMS, such as Wordpress",
@@ -62,7 +63,7 @@ export const frontend = [
     img: "./assets/portfolio/WildflowerHopeWebsite.png",
   },
   {
-    id: 6,
+    id: 8,
     title: "GitHub User Finder Website",
     description:
       "This website was developed as a personal project using React.js as the front-end framework and bootstrap for the styling.  It utilizes the GitHub and Context APIs, to retrieve and store data and allow for the searching of users on GitHub.",

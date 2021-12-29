@@ -51,6 +51,7 @@
     //Set snapping
     // scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
+
     scrollbar-width: 0; //Firefox;
     &::-webkit-scrollbar {
       //Other browsers
