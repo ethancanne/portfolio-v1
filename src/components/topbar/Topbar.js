@@ -1,23 +1,22 @@
-import React, {useState, useEffect} from 'react';
-import {Mail, Phone, LinkedIn} from '@material-ui/icons';
-import './topbar.scss';
+import React, { useState, useEffect } from "react";
+import { Mail, Phone, LinkedIn } from "@material-ui/icons";
+import "./topbar.scss";
 
-const Topbar = ({menuOpen, setMenuOpen, topBarOpaque}) => {
-
+const Topbar = ({ menuOpen, setMenuOpen, topBarOpaque }) => {
   return (
     <>
-      <div className={'background ' + (menuOpen && 'active')}></div>
       <div
         className={
-          'topbar ' +
-          (menuOpen && 'active ') +
-          ((topBarOpaque && !menuOpen) && ' opaque')
+          "topbar " +
+          (menuOpen && "active ") +
+          (topBarOpaque && !menuOpen && " opaque")
         }>
         <div className='wrapper'>
           <div className='left'>
             <div className='logo'>
               <a href='#intro' className='name'>
-                Ethan Cannelongo<br/>
+                Ethan Cannelongo
+                <br />
               </a>
               <p>Web and Mobile Developer</p>
             </div>

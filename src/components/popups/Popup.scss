@@ -1,45 +1,43 @@
-@import '../../globals.scss';
-.popup-background{
-    width: 100vw;
-    height: 100vh;
-    position: fixed; 
+@import "../../globals.scss";
+.popup-background {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  background-color: #1f4e7998;
+  pointer-events: none;
+  opacity: 1;
+  transition: all 1s;
+  opacity: 0;
+}
+
+.popup {
+  position: fixed;
+  overflow-y: scroll;
+  width: 60vw;
+  height: auto;
+  top: 15%;
+  left: 20%;
+  transform: translate(-50%, 0);
+  z-index: 99;
+  background-color: white;
+  border-radius: 10px;
+  transform: scale(0.8);
+  opacity: 0;
+  transition: all 0.5s;
+  pointer-events: none;
+  @include mobile {
+    border-radius: 0px;
     top: 0;
-    z-index: 20;
-    background-color: #1f4e7998;
-    pointer-events: none;
-    opacity: 1;
-    transition: all 1s;
-    opacity: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+  }
 }
 
-
-.popup{
-    position: fixed;
-    overflow-y: scroll;
-    width: 60vw;
-    height: auto;
-    top: 15%;
-    left: 20%;
-    transform: translate(-50%, 0);
-    z-index: 99;
-    background-color: white;
-    border-radius: 10px;
-    transform: scale(0.8);
-    opacity: 0;
-    transition: all 0.5s;
-    pointer-events: none;
-    @include mobile{
-        border-radius: 0px;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-    }
+.active {
+  transform: scale(1);
+  pointer-events: all;
+  opacity: 1;
 }
-
-.active{
-    transform: scale(1);
-    pointer-events: all;
-    opacity: 1;
-}
-
