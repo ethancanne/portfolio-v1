@@ -47,7 +47,7 @@ module.exports = {
           content:
             "The portfolio of Ethan Cannelongo, who is a full-stack web and mobile developer with years of experience in creating quality work with integrity.",
         },
-        "og:image": { property: "og:image", content: "./src/previewImg.png" },
+        "og:image": { property: "og:image", content: "./previewImg.png" },
         "og:description": {
           property: "og:description",
           content:
