@@ -97,6 +97,15 @@ export const backend = [
 export const fullstack = [
   {
     id: 1,
+    title: "Study Spaces Web-Application",
+    description:
+      "During my Computer Science capstone course at Liberty University, I have been able to collaborate on an agile-based team to develop a full-stack, production-level web-application in accordance to the full-life cycle of software development.  The goal of this application is to allow people to easily find, join and collaborate with study groups in their area.  Most of my time is spent utilizing the React framework and Sass design language develop and implement a modern and responsive user interface that I previously designed for the application.  Additionally, I am involved in utilizing NodeJS and Express to craft a REST API for the application, which communicates with MongoDB for data storage and retrieval.",
+    dateCreated: "In Progress",
+    link: "",
+    img: "./assets/portfolio/StudySpacesWebApp.png",
+  },
+  {
+    id: 1,
     title: "Contact-Manager Website",
     description:
       "This full-stack website was developed as a personal project using React.js as the front-end framework and Node.js as the back-end language.  It utilizes a Rest API that that interacts with a MongoDB database for storage and retrival of custom Contacts.",
@@ -150,7 +159,7 @@ export const design = [
     id: 1,
     title: "Study Spaces Web App Design",
     description:
-      "This design was created for a web-application that is currently being developed in my capstone course.  I am currently a part of a team that will take this mockup and covert it into an actual design using Sass for the Study Spaces web-application.  I utilized the powerful design capabilities of PowerPoint to develop these mockup images.",
+      "This design was created for a web-application that is currently being developed in my capstone course.  I am currently a part of a team that will take these mockup images and implement them into the design of the Study Spaces user interface using React and Sass.  I utilized the powerful design capabilities of PowerPoint to develop these mockup images.",
     dateCreated: "Oct 15, 2021",
     link: "https://drive.google.com/file/d/19VRFuV8CjMV2ZKxeTueYbw5UiesAqnVD/view?usp=sharing",
     img: "./assets/portfolio/StudySpacesUI.png",
@@ -159,7 +168,7 @@ export const design = [
     id: 2,
     title: "Student Information System Design",
     description:
-      "I created this design as a graded submission for a Software Development class.  It encompasses the UI Design of a student information system.  I utilized the powerful design capabilities of PowerPoint to develop these mockup images. ",
+      "I created this design as a graded submission for a Software Development class.  It encompasses a state-of-the-art, easy to use, and user-friendly UI Design of a student information system.  I utilized the powerful design capabilities of PowerPoint to develop these mockup images. ",
     dateCreated: "April 2, 2021",
     link: "https://drive.google.com/file/d/15pxKETXxZZqGtObxfptvrCpKkTSnobBQ/view?usp=sharing",
     img: "./assets/portfolio/SISUI.png",
