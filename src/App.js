@@ -29,30 +29,36 @@ const App = props => {
 
   return (
     <div className='App'>
-      <Topbar
-        menuOpen={menuOpen}
-        setMenuOpen={setMenuOpen}
-        topBarOpaque={topBarOpaque}
-      />
-      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <PortfoiloPopup
-        item={activePortfolioItem}
-        setActiveItem={setActivePortfolioItem}
-        isShowing={Object.keys(activePortfolioItem).length !== 0}
-      />
-      {/* )} */}
-      <div
-        className='sections'
-        onScroll={() => {
-          handleScroll();
-        }}>
-        <Intro />
-        <About />
-        <Portfolio setActivePortfolioItem={setActivePortfolioItem} />
-        <Proficiencies />
-        {/* <Testamonials /> */}
-        <Contact />
-        <Footer />
+      <div>
+        <Topbar
+          menuOpen={menuOpen}
+          setMenuOpen={setMenuOpen}
+          topBarOpaque={topBarOpaque}
+        />
+        <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        <PortfoiloPopup
+          item={activePortfolioItem}
+          setActiveItem={setActivePortfolioItem}
+          isShowing={Object.keys(activePortfolioItem).length !== 0}
+        />
+        {/* )} */}
+        <div
+          className={
+            Object.keys(activePortfolioItem).length !== 0
+              ? "sections popup-active"
+              : "sections"
+          }
+          onScroll={() => {
+            handleScroll();
+          }}>
+          <Intro />
+          <About />
+          <Portfolio setActivePortfolioItem={setActivePortfolioItem} />
+          <Proficiencies />
+          {/* <Testamonials /> */}
+          <Contact />
+          <Footer />
+        </div>
       </div>
     </div>
   );

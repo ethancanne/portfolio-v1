@@ -26,6 +26,7 @@
 
     pointer-events: none;
   }
+
   font-family: "Outfit", sans-serif;
 
   .sections {
@@ -33,6 +34,11 @@
     height: calc(100% - 5em);
     position: fixed;
     top: 5em;
+
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    &.popup-active {
+      transform: scale(0.9);
+    }
 
     .section-wrapper {
       padding: 60px 90px 10px 90px;

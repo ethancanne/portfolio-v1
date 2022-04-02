@@ -4,7 +4,7 @@ import "./PortfolioPopup.scss";
 
 const PortfoiloItem = ({ item, setActiveItem, isShowing }) => {
   return (
-    <Popup isShowing={isShowing}>
+    <Popup isShowing={isShowing} setActiveItem={setActiveItem}>
       <div className='bar'>
         <h1>{item.title}</h1>
         <div className='close-button' onClick={() => setActiveItem("")}>

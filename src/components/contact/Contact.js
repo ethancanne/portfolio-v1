@@ -40,7 +40,7 @@ const Contact = () => {
         <p>
           Email is the quickest way to contact me. I typically respond within 24
           hours. Get in touch via the form, or by emailing
-          ethancannelongo@gmail.com.
+          me@ethancannelongo.com.
         </p>
       </div>
 

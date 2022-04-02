@@ -3,13 +3,22 @@ export const frontend = [
     id: 1,
     title: "GIA'S Hope Website",
     description:
-      "This website was voluntarily developed and deployed using React and Next.JS for a non-profit organization called GIA'S Hope.  The website features an intuitive and responsive user interface developed using the Sass design language, which is plesant and easy to use.  It incorporates advanced features including many fluid animations and effects.",
+      "This website was voluntarily developed and deployed using React and Next.JS for a non-profit organization called GIA'S Hope.  The website features an intuitive and responsive user interface developed using the Sass design language, which is plesant and easy to use.  It incorporates advanced features including many fluid animations and effects, and a responsive design, which is easy to use on mobile devices.",
     link: "https://www.giashope.org",
     dateCreated: "Dec 28, 2021",
     img: "./assets/portfolio/giashope.png",
   },
   {
     id: 2,
+    title: "Budgetting App",
+    description:
+      "With the collaboration of an agile-based team, I was able to lead the development of this budget tracking application.  This app was developed using React and many of its features, including React Router and the MUI Library.  The app features a simple and intuitive user interface, that makes tracking your expenses and incomes a breeze.",
+    link: "https://ethancanne.github.io/budgeting-app/",
+    dateCreated: "Feb 11, 2022",
+    img: "./assets/portfolio/BudgettingApp.png",
+  },
+  {
+    id: 3,
     title: "Library Website",
     description:
       "This website was developed and submitted as a graded assigment for a Web Architecture and Development class.  It showcases multiple aspects of my design capabilites with CSS and front-end architecture.",
@@ -18,7 +27,7 @@ export const frontend = [
     img: "./assets/portfolio/LibraryWebsite.png",
   },
   {
-    id: 3,
+    id: 4,
     title: "Computer Retail Website",
     description:
       "This website was developed and submitted as a graded assigment for a Web Architecture and Development class.  It showcases my design skills along with my ability with using JQuery to apply functionality to the website, such as an interactive cart, popups, along with many smooth animations therein.",
@@ -27,7 +36,7 @@ export const frontend = [
     img: "./assets/portfolio/ComputerRetailWebsite.png",
   },
   {
-    id: 4,
+    id: 5,
     title: "Museum Website",
     description:
       "This website was developed and submitted as a graded assigment for a Web Architecture and Development class.  It showcases my capability with applying animation within CSS and designing modern, interactive interfaces.",
@@ -36,7 +45,7 @@ export const frontend = [
     img: "./assets/portfolio/MuseumWebsite.png",
   },
   {
-    id: 5,
+    id: 6,
     title: "Hotel Website",
     description:
       "This is a static website, which was developed and submitted as a graded assigment for a Web Architecture and Development class.  The design for this website was given in class as an image. This website showcases my capability with taking an image mockup and applying the design into an actual style for a website using CSS.",
@@ -45,25 +54,25 @@ export const frontend = [
     img: "./assets/portfolio/HotelWebsite.png",
   },
   {
-    id: 6,
-    title: "Coffee Website",
+    id: 7,
+    title: "Tile-Matching Game",
     description:
-      "This website was developed and submitted as a graded assigment for a Web Architecture and Development class.  It showcases multiple aspects of my design capabilites with CSS and front-end architecture.",
-    dateCreated: "Sept 28, 2020",
-    link: "http://ethancannelongo.great-site.net/coffee-website/",
-    img: "./assets/portfolio/CoffeeWebsite.png",
+      "With the collaboration of an agile-based team, I was able to lead the development of a game resembling the popular 2048 tile matching game with several features added, such as the ability to set the layout of the board.  This app was developed using vanilla JavaScipt and the Parcel bundler to compile scss files for the design of the game.  The app features an interactive user interface and a responsive, mobile-friendly design that plays smoothly across devices.",
+    link: "https://ethancanne.github.io/2048Game/",
+    dateCreated: "Jan 28, 2022",
+    img: "./assets/portfolio/2048Game.png",
   },
   {
-    id: 7,
+    id: 8,
     title: "Wildflower Hope",
     description:
-      "This blog was voluntarily developed using Wordpress for a non-profit organization.  It features a custom, modern design; email marketing integration; and many other features that showcase my ability with front-end architecture as well as utilizing a CMS, such as Wordpress",
+      "This blog was voluntarily developed using Wordpress for a non-profit organization.  It features a custom, modern design; email marketing integration; and many other features that showcase my ability with front-end architecture as well as utilizing the Wordpress CMS",
     dateCreated: "Oct 16, 2019",
     link: "https://wildflowerhope.com",
     img: "./assets/portfolio/WildflowerHopeWebsite.png",
   },
   {
-    id: 8,
+    id: 9,
     title: "GitHub User Finder Website",
     description:
       "This website was developed as a personal project using React.js as the front-end framework and bootstrap for the styling.  It utilizes the GitHub and Context APIs, to retrieve and store data and allow for the searching of users on GitHub.",
@@ -100,12 +109,21 @@ export const fullstack = [
     title: "Study Spaces Web-Application",
     description:
       "During my Computer Science capstone course at Liberty University, I have been able to collaborate on an agile-based team to develop a full-stack, production-level web-application in accordance to the full-life cycle of software development.  The goal of this application is to allow people to easily find, join and collaborate with study groups in their area.  Most of my time is spent utilizing the React framework and Sass design language develop and implement a modern and responsive user interface that I previously designed for the application.  Additionally, I am involved in utilizing NodeJS and Express to craft a REST API for the application, which communicates with MongoDB for data storage and retrieval.",
-    dateCreated: "In Progress",
-    link: "",
-    img: "./assets/portfolio/StudySpacesWebApp.png",
+    dateCreated: "March 31, 2022",
+    link: "https://cs-studyspaces.herokuapp.com",
+    img: "./assets/portfolio/StudySpacesUI.png",
   },
   {
-    id: 1,
+    id: 2,
+    title: "QR-Code Generator",
+    description:
+      "This website provides a simple interface for generating and storing QR-Codes from a given url inside of a MySQL database.  The interface was developed in the React front-end framework, which interacts with A REST API developed using Laravel.",
+    dateCreated: "April 1, 2022",
+    link: "cs-qr-code-generator.herokuapp.com",
+    img: "./assets/portfolio/QRCode.png",
+  },
+  {
+    id: 3,
     title: "Contact-Manager Website",
     description:
       "This full-stack website was developed as a personal project using React.js as the front-end framework and Node.js as the back-end language.  It utilizes a Rest API that that interacts with a MongoDB database for storage and retrival of custom Contacts.",
@@ -114,7 +132,7 @@ export const fullstack = [
     img: "./assets/portfolio/ContactManagerWebsite.png",
   },
   {
-    id: 2,
+    id: 4,
     title: "Weather Application",
     description:
       "This full-stack website allows users to search for and retrieve weather information in a specified area using a third-party weather API.  It utilizes Handlebars in the front-end and Node.js in the back end, as well as a clean and modern interface.",

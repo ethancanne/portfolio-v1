@@ -11,9 +11,6 @@
   transition: all 0.5s ease;
   overflow: hidden;
 
-  @include mobile {
-  }
-
   //Shadow
   box-shadow: none;
   background-color: #ffffff00;
@@ -67,6 +64,7 @@
         span {
           font-weight: 500;
           a {
+            text-decoration: none;
             color: inherit;
           }
         }
@@ -97,6 +95,11 @@
     //Hamburger is open
     background-color: $topBarColor;
     color: white;
+
+    #linked-in {
+      color: white !important;
+    }
+
     overflow: visible;
     position: absolute;
 

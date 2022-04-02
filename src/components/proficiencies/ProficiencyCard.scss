@@ -1,76 +1,70 @@
-@import '../../globals.scss';
-.proficiency-card{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    box-shadow: 10px 5px 20px 1px rgba(0, 0, 0, 0.098);
-    width: 70vw;
-    height: 330px;
-    overflow: hidden;
-    padding: 20px;
-    margin: 30px;
-    position: relative;
+@import "../../globals.scss";
+.proficiency-card {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  box-shadow: 0 0 0 1px rgba(97, 97, 97, 0.1),
+    0 3px 20px 0 rgba(92, 92, 92, 0.3), 0 1px 2px rgba(0, 0, 0, 0.5);
+  width: 70vw;
+  height: 330px;
+  overflow: hidden;
+  padding: 20px;
+  margin: 30px;
+  position: relative;
 
-    .proficiency-top{
-        padding: 10px;
-        h1{
-            font-size: 30px;
-            font-weight: 800;
-        }
-
+  .proficiency-top {
+    padding: 10px;
+    h1 {
+      font-size: 30px;
+      font-weight: 800;
     }
-    .proficiency-details{
-        p{
-            font-size: #{"min(3.4vw, 25px)"};
-            padding: 10px;
-        }
-
+  }
+  .proficiency-details {
+    p {
+      font-size: #{"min(3.4vw, 25px)"};
+      padding: 10px;
     }
-    .proficiency-technologies{
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        height: auto;
+  }
+  .proficiency-technologies {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px 10px 20px 1px rgba(0, 0, 0, 0.071);
+    padding: 16px 10px 10px 30px;
+    @include mobile {
+      padding: 0px 10px 10px 30px;
+    }
+
+    h3 {
+      font-size: 20px;
+      padding: 10px;
+      @include mobile {
+        padding: 0;
         width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        background-color: rgb(255, 255, 255);
-        box-shadow: inset 0px 10px 20px 1px rgba(0, 0, 0, 0.071);
-        padding: 16px 10px 10px 30px;
-        @include mobile{
-            padding: 0px 10px 10px 30px;
-        }
-
-        h3{
-            font-size: 20px;
-            padding: 10px;
-            @include mobile{
-                padding: 0;
-                width: 100%;
-            }
-        }
-        .technology{
-            margin-top: 15px;
-            text-align: left;
-            padding-right: 20px;
-        }
-
-
-        @include mobile {
-            h3{
-                font-size: 15px;
-                padding-top: 20px;
-            }
-            p{
-                font-size: 15px;
-            }
-            .technology{
-                margin-top: 20px;
-            }
-        }
-    
-    
+      }
     }
-    
+    .technology {
+      margin-top: 0px;
+      text-align: left;
+      padding-right: 20px;
+    }
 
+    @include mobile {
+      h3 {
+        font-size: 15px;
+        padding-top: 20px;
+      }
+      p {
+        font-size: 15px;
+      }
+      .technology {
+        margin-top: 20px;
+      }
+    }
+  }
 }

@@ -20,19 +20,11 @@ const About = () => {
                     Programming.
                   </strong>
                   <br />
+                  <br /> As an experienced full-stack web developer, its my
+                  passion to express my creativity in developing robust,
+                  interactive and responsive websites and application with
+                  integrity and quality.
                   <br />
-                  As an experienced full-stack web developer, building
-                  state-of-the-art, easy to use, user-friendly websites and
-                  applications is truly a passion of mine. I'm proficient in
-                  utilizing React and React Native to design professional user
-                  experiences; NodeJS and Express to craft back-end solutions,
-                  such as designing REST APIs and SQL/NoSQL Databases; as well
-                  as integrating many of their related technologies.
-                  <br />
-                  <br />
-                  My desires and passions in my career are to leverage my
-                  skills, knowledge and experience to provide integrity and
-                  quality in the work I perform.
                 </p>
               </div>
             </div>
@@ -48,34 +40,27 @@ const About = () => {
           <div className='dropdown'>
             <h2>My Story</h2>
             <p>
-              My experience in computer science and programming began while I
-              was in 8th grade, where I experimented with Visual Basic to
-              develop macros for PowerPoint. This experience propelled me to
-              dive deeper into the realm of programming. I quickly picked up the
-              C# language and UI/UX design and utilized those skills to teach
-              myself mobile app development.
-              <br /> <br /> In response to a constant desire to grow in my
-              knowledge of programming, I expanded my toolset into several other
-              languages and frameworks, including Swift and iOS Development,
-              website development with React and NodeJS, and software
-              development with C++. In 2019, I picked up work as a freelance
-              website and application developer, where I leveraged these skills
-              to add value to individuals, companies, and teams in delivering
-              projects to my clients. An example of my work was developing and
-              distributing a complete iPad OS application for the Merck
-              pharmaceutical company.
+              Since 8th grade, I've had a constant desire to grow in my
+              knowledge of programming. Starting from simply experimenting with
+              the Visual Basic language in devloping macros for PowerPoint, I
+              was propelled to dive deeper and quickly picked up the C#, C++ and
+              Swift programming languages as well as the nature of UI/UX design,
+              which I utilized to teach myself mobile app development.
               <br /> <br />
-              I've since focused on developing full-stack websites and mobile
-              applications using React and React Native as the front-end
-              frameworks and NodeJS as the back-end language, as well as their
-              related technologies. I have worked on several projects focused
-              specifically on developing front-end and back-end architectures,
-              such as designing REST APIs and SQL/NoSQL Databases, utilizing
-              WebSocket technology, and creating professional user experiences
-              in React. <br /> <br /> I have greatly enjoyed being able to learn
-              new technologies and skills and utilizing them in my endeavor to
-              develop and implement quality solutions, and I look forward to
-              adding value to any future project that comes my way.
+              After expanding my knowlede of the computer science realm, I
+              focused my efforts into expressing my creativity through creating
+              full-stack solutions in devloping cross-platform mobile websites
+              and applications. I was able to pick up work as a freelancer in
+              creating web and mobile applications for clients. Through my
+              experience, I have developed a strong understanding of the
+              importance of quality and integrity in the development of
+              software.
+              <br /> <br />
+              Currently, I'm proficient in the MERN stack (MongoDB, ExpressJS,
+              React, Node) to develop web and mobile applications that utilize
+              the latest technologies, such as Next.JS, Redux, Docker, GraphQL
+              and Socket.io, allowing myself to express my creativity throughout
+              the development process, from design to implementation.
             </p>
           </div>
         </div>

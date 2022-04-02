@@ -21,15 +21,14 @@
   justify-content: flex-start;
   flex-direction: row;
   @include mobile {
+    height: 90vh;
     flex-direction: column;
-  }
-  @include mobile {
     padding: 0;
     padding-bottom: 10px;
   }
 
   .title-contact-container {
-    overflow: hidden;
+    overflow: visible;
     flex: 1;
     padding: 90px;
 
@@ -50,9 +49,11 @@
   }
 
   .form-contact-container {
-    overflow: hidden;
+    overflow: visible;
     flex: 1;
     form {
+      overflow: visible;
+
       width: 70%;
       height: 70%;
       @include mobile {
@@ -67,7 +68,8 @@
         padding: 10px;
         margin: 10px;
         background-color: rgba(255, 255, 255, 0.584);
-        box-shadow: 0px 2px 10px rgba(109, 109, 109, 0.096);
+        backdrop-filter: blur(5px);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
       }
 
       input {
@@ -96,6 +98,7 @@
         //Message
         color: darkgreen;
         overflow: hidden;
+        padding: 10px;
       }
     }
     @include mobile {
@@ -105,7 +108,7 @@
       form {
         min-height: 200px;
         > * {
-          margin: 2px;
+          margin: 3px;
         }
         button {
           min-height: 40px;

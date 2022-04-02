@@ -26,7 +26,9 @@ const Topbar = ({ menuOpen, setMenuOpen, topBarOpaque }) => {
               <LinkedIn className='icon' />
               <span>
                 <a href='https://www.linkedin.com/in/ethan-cannelongo/'>
-                  https://www.linkedin.com/in/ethan-cannelongo/
+                  <p id='linked-in'>
+                    https://www.linkedin.com/in/ethan-cannelongo/
+                  </p>
                 </a>
               </span>
             </div>

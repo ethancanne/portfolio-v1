@@ -5,11 +5,15 @@
   position: fixed;
   top: 0;
   z-index: 20;
-  background-color: #1f4e7998;
+  background-color: #ffffffab;
   pointer-events: none;
   opacity: 1;
-  transition: all 1s;
+  transition: all 0.2s;
   opacity: 0;
+
+  cursor: pointer;
+
+  backdrop-filter: blur(5px);
 }
 
 .popup {
@@ -19,16 +23,19 @@
   // width: 60vw;
   height: auto;
   top: 10%;
-  left: 10%;
-  right: 10%;
+  left: 20%;
+  right: 20%;
+
+  box-shadow: 0 0 0 1px rgba(97, 97, 97, 0.1),
+    0 3px 20px 0 rgba(92, 92, 92, 0.3), 0 1px 2px rgba(0, 0, 0, 0.5);
 
   transform: translate(-50%, 0);
   z-index: 99;
-  background-color: whitesmoke;
-  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
   transform: scale(0.8);
   opacity: 0;
-  transition: all 0.5s;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
   pointer-events: none;
   @include mobile {
     border-radius: 0px;

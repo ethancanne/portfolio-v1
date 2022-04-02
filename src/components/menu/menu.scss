@@ -50,6 +50,7 @@
   top: 0;
   overflow: hidden;
   background-color: #1f4e7998;
+  backdrop-filter: blur(3px);
   pointer-events: none;
   transition: 0.5s all;
 

@@ -10,17 +10,19 @@
 
   h1 {
     font-size: 30px;
+
     flex: 95%;
   }
 
   .close-button {
     // flex: 1;
     text-align: right;
+    margin: 10px 20px 0 0;
     width: 20px;
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
-    font-weight: 700;
-    color: rgba(136, 8, 8, 0.673);
+    font-weight: 300;
+    color: rgba(81, 81, 81, 0.673);
   }
   @include mobile {
     h1 {
@@ -28,6 +30,7 @@
     }
     .close-button {
       font-size: 20px;
+      margin: 0;
     }
     height: 2.5em;
   }
@@ -35,7 +38,7 @@
 .portfolio-popup-wrapper {
   padding: 20px;
   overflow-y: scroll;
-  background-color: whitesmoke;
+  background-color: rgb(255, 255, 255);
   .portfolio-info-wrapper {
     margin-bottom: 10px;
     display: flex;
