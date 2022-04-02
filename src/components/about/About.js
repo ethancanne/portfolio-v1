@@ -17,13 +17,14 @@ const About = () => {
                   senior at Liberty University graduating in May of 2022 with
                   <strong>
                     a bachelors in Computer Science - Web and Mobile
-                    Programming.
+                    Programming.{""}
                   </strong>
                   <br />
-                  <br /> As an experienced full-stack web developer, its my
-                  passion to express my creativity in developing robust,
-                  interactive and responsive websites and application with
-                  integrity and quality.
+                  <br />
+                  As an experienced full-stack web developer, its my passion to
+                  express my creativity in developing robust, interactive and
+                  responsive websites and application with integrity and
+                  quality.
                   <br />
                 </p>
               </div>
